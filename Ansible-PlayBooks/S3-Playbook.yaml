@@ -5,7 +5,7 @@
 
   vars:
     stack_name: S3-Stack
-    template_file: AWS-CF-Templates/S3-CFT.yaml
+    template_file: ../AWS-CF-Templates/S3-CFT.yaml
     region: ap-south-1  # Change as needed
 
   tasks:
