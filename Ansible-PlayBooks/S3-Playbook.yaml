@@ -12,7 +12,7 @@
     - name: 📦 Deploy CloudFormation stack
       amazon.aws.cloudformation:
         stack_name: "{{ stack_name }}"
-        state: present
+        state: absent
         region: "{{ region }}"
         template_body: "{{ lookup('file', template_file) }}"
         capabilities:
