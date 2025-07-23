@@ -1,0 +1,23 @@
+- name: 🚀 Deploy CloudFormation Stack for EC2
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  vars:
+    stack_name: EC2-Stack
+    template_file: AWS-CF-Templates/EC2-CFT.yaml
+    region: ap-south-1  # Change as needed
+
+  tasks:
+    - name: 📦 Deploy CloudFormation stack
+      amazon.aws.cloudformation:
+        stack_name: "{{ stack_name }}"
+        state: present
+        region: "{{ region }}"
+        template_body: "{{ lookup('file', template_file) }}"
+        capabilities:
+          - CAPABILITY_NAMED_IAM
+        tags:
+          Environment: Dev
+          Owner: DevOps
+
