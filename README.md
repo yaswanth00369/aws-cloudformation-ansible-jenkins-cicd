@@ -4,6 +4,24 @@ This repository provides a complete solution for deploying AWS resources such as
 
 ---
 
+## 📌 Features
+
+- 🛠️ Deploy and delete CloudFormation stacks via Ansible
+- ⚙️ Integrated with Jenkins for end-to-end CI/CD automation
+- ☁️ Provisions real AWS resources (S3, EC2, etc.)
+- 📦 Modular playbooks for easy reuse
+- 📈 Output success logs and resource identifiers
+
+---
+
+## 🧱 Architecture
+
+![architecture](diagrams/architecture.png)
+
+> ✅ GitHub → Jenkins → Ansible Agent → AWS CloudFormation → AWS Resources (S3/EC2)
+
+---
+
 ## 🔧 Tech Stack
 
 🧰 Ansible
