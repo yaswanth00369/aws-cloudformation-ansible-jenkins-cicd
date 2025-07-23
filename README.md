@@ -16,45 +16,7 @@ This repository provides a complete solution for deploying AWS resources such as
 
 ## 🧱 Architecture
 
-![architecture](diagrams/architecture.png)
-
 > ✅ GitHub → Jenkins → Ansible Agent → AWS CloudFormation → AWS Resources (S3/EC2)
-
----
-
-## 🔧 Tech Stack
-
-🧰 Ansible
-
-☁️ Amazon Web Services (CloudFormation: EC2 & S3)
-
-🛠️ Jenkins
-
-🗃️ GitHub (Source Control Management)
-
----
-
-## 📌 Objective
-
-✅ Automate the provisioning of AWS infrastructure (EC2 instance and S3 bucket) using CloudFormation stacks.
-
-✅ Store reusable Ansible playbooks and CloudFormation templates in GitHub.
-
-✅ Use Jenkins CI/CD pipelines to trigger the Ansible playbooks.
-
-✅ Leverage Jenkins IAM Role or credentials securely for AWS authentication.
-
----
-
-## 🧪 How It Works
-
-🔁 The Jenkins pipeline is triggered — either manually or via a Git webhook (e.g., on a push).
-
-🤖 Jenkins agent with Ansible executes the assigned playbook for provisioning.
-
-🏗️ Ansible triggers AWS CloudFormation stack deployment (EC2 or S3).
-
-🌐 AWS infrastructure is provisioned and ready to use in your cloud environment.
 
 ---
 
