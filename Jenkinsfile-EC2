@@ -9,7 +9,11 @@ pipeline {
         stage('Run Ansible Playbook') {
             steps {
                 dir("${WORKSPACE}") {
+                    // Run this if you want to deploy the stack
                     sh 'ansible-playbook Ansible-PlayBooks/EC2-Playbook.yaml'
+
+                    // Run this if you want to delete the stack
+                    // sh 'ansible-playbook Ansible-PlayBooks/EC2-Playbook.yaml --extra-vars "state=absent"'
                 }
             }
         }
