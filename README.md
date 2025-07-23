@@ -54,3 +54,25 @@ This repository provides a complete solution for deploying AWS resources such as
 ├── Jenkinsfile-EC2 # Jenkins pipeline for EC2 deployment
 ├── Jenkinsfile-S3 # Jenkins pipeline for S3 deployment
 ```
+---
+
+## 🚀 S3 Stack Details
+
+### Ansible Playbook Execution from Jenkins Pipeline
+
+<img width="767" height="426" alt="image" src="https://github.com/user-attachments/assets/44d9af74-c248-45de-92df-1da17e98e3a9" />
+
+### AWS Stack Details
+
+<img width="1299" height="694" alt="image" src="https://github.com/user-attachments/assets/a90d54b5-d718-4fd9-b490-6b80ae3a3231" />
+
+---
+
+## 🚀 EC2 Stack Details
+
+### Ansible Playbook Execution from Jenkins Pipeline
+
+
+
+### AWS Stack Details
+
