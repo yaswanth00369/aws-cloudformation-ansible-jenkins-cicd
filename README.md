@@ -72,7 +72,10 @@ This repository provides a complete solution for deploying AWS resources such as
 
 ### Ansible Playbook Execution from Jenkins Pipeline
 
-
+<img width="1299" height="426" alt="image" src="https://github.com/user-attachments/assets/1719ed1a-1a18-4276-b4a2-302e8f9a7a89" />
 
 ### AWS Stack Details
+
+<img width="1299" height="694" alt="image" src="https://github.com/user-attachments/assets/359d102a-ae26-4f2c-9dff-f25847124ae6" />
+
 
