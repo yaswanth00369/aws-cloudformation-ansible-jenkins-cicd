@@ -5,7 +5,7 @@
 
   vars:
     stack_name: EC2-Stack
-    template_file: /AWS-CF-Templates/EC2-CFT.yaml
+    template_file: ../AWS-CF-Templates/EC2-CFT.yaml
     region: ap-south-1  # Change as needed
 
   tasks:
