@@ -23,6 +23,10 @@
           Owner: DevOps
       register: stack_result
 
+    - name: 🧾 Print full stack_result for debugging
+      debug:
+        var: stack_result
+
     - name: ✅ Print S3 Bucket Name and Success Message (Present)
       when: state == 'present'
       block:
